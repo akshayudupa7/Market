@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .btn button{
+    outline: none;
+    border:none;
+    border: 1px solid orange;
+    color:orange;
+    width:50px;
+    height:30px;
+    margin-top: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.share h5{
+    color:rgb(153, 153, 7);
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 600;
+}
+.share h6{
+    font-size: 13px;
+    font-weight: 600;
+}
+.share p{
+    font-size: 12px;
+}
+.price h6{
+   font-size: 14px;
+}
+.price span{
+    color:rgb(92, 92, 205);
+}
+.master{
+    border:1px solid rgba(191, 191, 193, 0.381);
+    margin-top: 10px;
+    padding: 12px 0px;
+}
+.value p{
+    font-size:12px
+}
+.unreal p{
+    font-size: 12px;
+}
+.port p{
+    font-size: 13px;
+}
+.price1 h6{
+    font-size: 11px;
+    margin-left: 4px;
+}
+.price1 span{
+  font-size: 14px;
+}
+.chart{
+    margin-top: 30px;
+    height:70vh;
+   
+   
+}
+.open{
+    margin: auto;
+     display: flex;
+     justify-content: space-between;
+     width:100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:760px){
+    .price{
+        flex-direction:column;
+     
+    }
+  .price1{
+    margin: auto;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+ .share h5,.share h6,.share p{
+    text-align: left;
+ }
+ .value p{
+   text-align: center;
+ }
+
+ .port p{
+    text-align: center;
+ }
+ .unreal p{
+    text-align: center;
+ }
+ .chart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:none;
+    margin: auto !important;
+
+ }
+ .chart h2{
+    text-align: center;
+ }
+ .price .price1{
+   margin-top: 10px;
+ }
+ .price h6{
+    font-size: 13px;
+ }
+ .price span{
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .price{
+    width:70%;
+ }
+ .share{
+   
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .equity{
+    width:70%;
+    background-color: rgba(219, 219, 219, 0.317);
+    margin: auto;
+ }
+ .share h5{
+    font-size: 20px;
+ }
+ .share h6{
+    font-size: 22px;
+    opacity: 0.9;
+ }
+ .share h5{
+    font-size: 18px;
+ }
+ .value p{
+    font-size: 16px;
+ }
+ .open{
+   margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+ }
+ .progress{
+    width:70%;
+    margin: auto;
+    margin-bottom: 30px;
+ }
+ .value{
+    margin-bottom: 20px;
+ }
+ button{
+    margin-left: 10px !important;
+ }
 }

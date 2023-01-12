@@ -1,0 +1,73 @@
+{
+    "Scrip":  [ 
+        {"name":"AADR",
+        "price": "50.2",
+         "Quantity":"430",
+         "Avg_Cost":"$41.75",
+        "Invested_Amt":"$17,952.07",
+        "Market":"$21629",
+        "portfolio":"22.06%",
+        "Unrealized_PL":"$3,676.93" ,
+        "return":"20.48%"
+      
+          }, 
+         
+        {"name":"MFEM",
+         "price": "23.20 ",
+         "Quantity":"210",
+        "Avg_Cost":"$22.50",
+        "Invested_Amt":"$4,725.84",
+        "Market":"$4872",
+        "portfolio":"5.81%",
+        "Unrealized_PL":"$146.16" ,
+        "return":"3.09%"
+        },
+         
+         {"name":"JPEM",
+          "price": "52.50",
+          "Quantity":"328",
+          "Avg_Cost":"$56.70",
+          "Invested_Amt":"$18,597.60",
+          "Market":"$17720",
+          "portfolio":"22.86%",
+          "Unrealized_PL":"-$1,377.60" ,
+          "return":"-7.41%"
+         
+        },
+         
+        {"name":"KEMQ",
+        "price": "20.40",
+        "Quantity":"801 ",
+        "Avg_Cost":"$22.24",
+        "Invested_Amt":"$17,811.04",
+        "Market":"$16340",
+        "portfolio":"21.89%",
+        "Unrealized_PL":"-$1,470.64",
+        "return":"-8.26%" 
+        },
+          
+        {"name":"KLDW",
+         "price": "32.90",
+         "Quantity":"523",
+         "Avg_Cost":"$26.32",
+         "Invested_Amt":"$13,765.36",
+         "Market":"$17206",
+         "portfolio":"16.92%",
+         "Unrealized_PL":"$3,441.34" ,
+         "return":"25.00%"
+        }, 
+        
+         {"name":"KOIN",
+         "price": "25.40",
+         "Quantity":"335",
+         "Avg_Cost":"$25.40",
+         "Invested_Amt":"$8,509.00",
+         "Market":"$8509",
+         "portfolio":"10.46%",
+         "Unrealized_PL":"0" ,
+         "return":"0.00%"
+        }
+
+          
+        ]
+}
