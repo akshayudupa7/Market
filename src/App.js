@@ -4,9 +4,12 @@ import './App.css';
 import data from "./data.json"
 import Child from './Child'
 import Chart from './Chart'
+
+
+
 function App() {
 
-  console.log(data.Scrip)
+
   return (
      <>
    
